@@ -32,3 +32,19 @@
 .logo-f img {
   width: 10rem;
 }
+
+.footer-blur-1 {
+  width: 26rem;
+  bottom: 0;
+  right: 15%;
+  height: 12rem;
+  filter: blur(200px);
+  background-color: red;
+}
+.footer-blur-2 {
+  width: 26rem;
+  height: 12rem;
+  bottom: 0;
+  filter: blur(200px);
+  background: rgb(255, 115, 0);
+}

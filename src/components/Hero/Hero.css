@@ -154,3 +154,9 @@
   z-index: -1;
   width: 15rem;
 }
+
+.hero-blur {
+  width: 22rem;
+  height: 30rem;
+  left: 0;
+}

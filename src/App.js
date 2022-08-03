@@ -5,7 +5,9 @@ import { Reasons } from "./components/Reasons/Reasons";
 import { Plans } from "./components/Plans/Plans";
 import { Testmonias } from "./components/Testmonials/Testmonials";
 import { Join } from "./components/Join/Join";
-function App() {
+import { Footer } from "./components/Footer/Footer";
+
+export const App = () => {
   return (
     <div className="App">
       <Hero />
@@ -14,8 +16,7 @@ function App() {
       <Plans />
       <Testmonias />
       <Join />
+      <Footer />
     </div>
   );
-}
-
-export default App;
+};

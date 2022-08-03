@@ -51,3 +51,9 @@
 .orange {
   color: var(--orange);
 }
+
+input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}

@@ -7,7 +7,7 @@ import Heart from "../../assets/heart.png";
 
 export const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="home">
       <div className="blur hero-blur"></div>
       <div className="left-h">
         <Header />
@@ -58,12 +58,7 @@ export const Hero = () => {
           <span>Heart Rate</span>
           <span>116 bpm</span>
         </div>
-        <img src={hero_image} alt="hero_imgae" className="hero-image"></img>
-        <img
-          src={hero_image_back}
-          alt="hero_image_back"
-          className="hero-image-back"
-        ></img>
+        <img src={hero_image} alt="hero_imgae" className="hero-image"></img>\
       </div>
     </div>
   );

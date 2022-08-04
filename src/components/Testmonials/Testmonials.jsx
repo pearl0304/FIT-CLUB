@@ -8,7 +8,7 @@ export const Testmonias = () => {
   const [selected, setSelected] = useState(0);
   const tlength = testimonialsData.length;
   return (
-    <div className="Testmonials">
+    <div className="Testmonials" id="testmoinals">
       <div className="left-t">
         <span>Testmonials</span>
         <span className="stroke-text">What they</span>
